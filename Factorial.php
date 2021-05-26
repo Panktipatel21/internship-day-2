@@ -11,5 +11,5 @@ function fact ($n)
     }  
 }  
   
-echo "Factorial of 6 is " .fact(6);  
+echo "Factorial of 5 is " .fact(5);  
 ?>  
