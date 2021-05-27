@@ -4,7 +4,7 @@ function isLeap($year)
     return (date('L', mktime(0, 0, 0, 1, 1, $year))==1);  
 }  
 //For testing  
-for($year=1991; $year<2016; $year++)  
+for($year=2000; $year<2025; $year++)  
 {  
     If (isLeap($year))  
     {  
